@@ -1,6 +1,6 @@
 //SUM of n numbers!!
 
-package JAVA;
+package JAVA_Practice;
 import java.util.Scanner;
 public class Que2 {
     public static void main(String[] args) {
