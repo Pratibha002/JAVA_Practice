@@ -1,4 +1,4 @@
-package JAVA;
+package JAVA_Practice;
 
 class A {
     int x;
