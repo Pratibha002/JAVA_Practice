@@ -46,7 +46,7 @@ public class MultilevelInheritance {
         int num7 = sc.nextInt();
         int num8 = sc.nextInt();
         System.out.println("n1/n2 = " + d.add(num7, num8));
-        
+        sc.close();
 
     }
 }
