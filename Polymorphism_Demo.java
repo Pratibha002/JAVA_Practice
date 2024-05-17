@@ -23,15 +23,13 @@ class Overloaded extends Polymorphism{
     }
 }
 class Overrided extends Polymorphism{
-    public int div (){
-        int a =10;
-        int b =5;
+    public int div (int a, int b){
+        
         int c = 1;
         return (a/b)*c;
     }
-    public int mul(){
-        int a =56;
-        int b =32;
+    public int mul(int a, int b){
+        
         int c =6;
 
         return (a-b)-c;
@@ -46,7 +44,7 @@ public class Polymorphism_Demo {
        System.out.println("SUBTRACTION OF TWO NUMBERS: "+o.sub(10,5));
        System.out.println("ADDITION OF THREE NUMBERS: "+o.add(2,3,4));
        System.out.println("ADDITION OF THREE NUMBERS: "+o.mul(2,6,9));
-       System.out.println("MULTIPLE OPERATION ON THREE NUMBERS: "+obj.div());
-       System.out.println("SUBTRACTION OF THREE NUMBERS: "+obj.div());
+       System.out.println("MULTIPLE OPERATION ON THREE NUMBERS: "+obj.div(10, 5));
+       System.out.println("SUBTRACTION OF THREE NUMBERS: "+obj.div(78, 65));
     }
 }
