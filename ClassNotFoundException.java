@@ -13,7 +13,7 @@ public class ClassNotFoundException {
             
             System.out.println("Class found successfully");
             Class.forName("Class1");// class not found and throw the exception
-            // if class1 is not present there it also give this error as well.
+            // if class1 is not present there it also give this error as well
         } 
         catch(Exception e){ 
             System.out.println(e); 
