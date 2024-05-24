@@ -26,13 +26,13 @@ public class throw_Practice {
         int a=0;
         int b=2/a;
         System.out.println("Statement 2");
-        }catch(Exception e){
-            throw e;
+        }catch(Exception e){              
+            throw e; //whenver we use the throw keyword in catch block program execution will get stop.
         }
         finally{
-            System.out.println("Statement 4");
+            System.out.println("Statement 4"); 
         }
-        System.out.println("Statement 5");
+        System.out.println("Statement 5");  //this line won't print
         }
             
     
