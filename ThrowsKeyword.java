@@ -42,6 +42,7 @@ public class ThrowsKeyword {
             System.out.println("division of two num :"+c);//The caller to these methods has to handle the exception using a try-catch block. 
         } catch (Exception e) {
             System.out.println(e);
+            s.close();
             
         }
     }
