@@ -1,7 +1,7 @@
 package JAVA_Practice;
 
 public class InstanceVariable {
-    public String name;
+    public String name;// it's not mendatory to intialise the instance variable,because they are automatically initialized to their default values. 
     public  String m1(){
         //  int a;
         //  int c=0;
