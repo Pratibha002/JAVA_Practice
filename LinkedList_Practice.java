@@ -7,8 +7,13 @@ public class LinkedList_Practice {
         l.add(30);
         l.add(null);
         l.add("Hello");
-        l.set(0, "Java");
+        System.out.println(l);
+        l.set(0, "Java");//it performs replacement, Hello is replaced by Java
+        System.out.println(l);//[Java, 30, null, Hello]
         l.add(0,"World");
+        System.out.println(l);
+        l.removeLast();
+        System.out.println(l);
         l.addFirst("Globe");
         System.out.println(l);
 
