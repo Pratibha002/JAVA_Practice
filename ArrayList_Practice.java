@@ -4,7 +4,7 @@ public class ArrayList_Practice {
     public static void main(String[] args){
 
         //Using generics is recommended to enforce type safety and avoid potential type-related errors.
-        ArrayList<Object> l = new ArrayList<Object> ();//here we use generics for type safety
+        ArrayList<Object> l = new ArrayList<Object> ();//here we use generics for type safety.
 
         l.add("A");//String
         l.add(10);//integer
