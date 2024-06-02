@@ -18,7 +18,7 @@ public class ArrayList_Practice {
         System.out.println(l);
 
         System.out.println();
-        ArrayList l2 = new ArrayList ();//withuot generics it gives the warning because of safety purpose.
+        ArrayList l2 = new ArrayList ();//without generics, it gives the warning because of safety purpose.
         l2.add("A");////it lacks type safety
         l2.add(10);
         l2.add("A");
