@@ -1,4 +1,5 @@
-package JAVA_Practice;
+//Java Program to Swap Two Numbers Without Using Third Variable.
+package JAVA_Practice.Basic_Programming;
 import java.util.Scanner;
 public class SwapWithoutThirdVar {
     public static void main(String[] args){
@@ -19,5 +20,6 @@ public class SwapWithoutThirdVar {
         System.out.println("NUMBER AFTER SWAPPING : ");
         System.out.println("num1 = "+num1);
         System.out.println("num2  = "+num2);
+        sc.close();
     }
 }
