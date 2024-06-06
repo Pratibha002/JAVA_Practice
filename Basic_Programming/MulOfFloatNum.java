@@ -1,4 +1,5 @@
-package JAVA_Practice;
+//Java Program to Multiply Two Floating-Point Numbers
+package JAVA_Practice.Basic_Programming;
 import java.util.Scanner;
 public class MulOfFloatNum {
     public static void main(String[] args){
@@ -9,6 +10,7 @@ public class MulOfFloatNum {
         float num2=  sc.nextFloat();
         float mul=num1*num2;
         System.out.println("MULTIPLICATION OF NUM1 AND NUM2 =  : "+mul);
+        sc.close();
 
     }
 }
