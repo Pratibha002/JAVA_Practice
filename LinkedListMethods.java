@@ -1,5 +1,6 @@
 package JAVA_Practice;
-import java.util.LinkedList;
+
+import java.util.*;
 
 public class LinkedListMethods {
     public static void main(String[] args) {
@@ -7,11 +8,11 @@ public class LinkedListMethods {
 
             // Adding elements
             System.out.println("Adding elements");
-            list.add("Apple");
-            list.add("Banana");
-            list.addFirst("Orange");
-            list.addLast("Grapes");
-            list.add(2, "Mango");
+            list.add("Apple");//[apple]
+            list.add("Banana");//[apple,banana]
+            list.addFirst("Orange");//[orange,apple,banana]
+            list.addLast("Grapes");//[orange,apple,banana,grapes]
+            list.add(2, "Mango");//[orange,apple,mango,banana,grapes]
 
             System.out.println("Initial List: " + list);
             System.out.println();
@@ -20,7 +21,18 @@ public class LinkedListMethods {
             // Accessing elements
             System.out.println("First Element: " + list.getFirst());
             System.out.println("Last Element: " + list.getLast());
-            System.out.println("Element at Index 2: " + list.get(2));
+            System.out.println("Element at Index 2: " + list.get(2));//by specifying index value
+            System.out.println("PEEK() retrieve but does not remove head of the list: " + list.peek());
+            System.out.println("peekFirst: " + list.peekFirst());
+            System.out.println("peekLast: " + list.peekLast());
+
+            // Using ListIterator to access and print elements
+            ListIterator<String> iterator = list.listIterator();
+            System.out.print("ListIterator: ");
+            while (iterator.hasNext()) {
+                    System.out.print(iterator.next() + " ");
+            }
+            System.out.println();
             System.out.println();
 
             System.out.println("Removing elements");
@@ -43,7 +55,7 @@ public class LinkedListMethods {
             // Using offer, poll, push, and pop
             list.offer("Pineapple");
             System.out.println("After offer: " + list);
-            System.out.println("Poll: " + list.poll());
+            System.out.println("Poll: " + list.poll());//retrieves and remove the first/head  element of the list
             System.out.println("After poll: " + list);
             System.out.println();
 
