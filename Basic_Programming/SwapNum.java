@@ -1,4 +1,5 @@
-package JAVA_Practice;
+//Java Program to Swap Two Numbers
+package JAVA_Practice.Basic_Programming;
 import java.util.Scanner;
 public class SwapNum {
     public static void main(String[] args){
@@ -20,6 +21,7 @@ public class SwapNum {
         System.out.println("NUMBER AFTER SWAPPING : ");
         System.out.println("num1 = "+num1);
         System.out.println("num2  = "+num2);
+        sc.close();
 
     }
 }
