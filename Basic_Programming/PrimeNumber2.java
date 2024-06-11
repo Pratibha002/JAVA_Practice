@@ -12,7 +12,7 @@ public class PrimeNumber2 {
             System.out.println("Given number " + num + " is not a Prime number.");
         } else {
             boolean isPrime = true;
-            for (int i = 2; i < num; i++) {
+            for (int i = 2; i < num; i++) {//i=2, because 2 is smallest prime number
                 if (num % i == 0) {
                     isPrime = false;
                     break;
