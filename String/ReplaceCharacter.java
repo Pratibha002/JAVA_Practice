@@ -1,8 +1,10 @@
+//Replace a character at a specific index in a String in Java
 package JAVA_Practice.String;
 
 public class ReplaceCharacter {
     public static void main(String[] args) {
         String s = "HELLO PAVA";
+
         System.out.println("Original String : "+s);
         StringBuffer sb =new StringBuffer(s);
         int index =6;
