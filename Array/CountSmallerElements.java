@@ -1,3 +1,4 @@
+//Find number of elements which are less than or equal to given element X.
 package JAVA_Practice.Array;
 
 import java.util.Arrays;
