@@ -8,14 +8,14 @@ public class ArrayCopy {
         System.out.println("original array: ");
 
         for(int i=0; i< a.length; i++ ){
-            System.out.print(a[i]);
+            System.out.print(a[i]+" ");
         }
         System.out.println();
-        System.out.println("================================================");
+
         int [] copy =Arrays.copyOf(a,a.length );
         System.out.println("Array copy : ");
         for(int i=0; i< copy.length; i++ ){
-            System.out.print(copy[i]);
+            System.out.print(copy[i]+ " ");
         }
 
     }
