@@ -16,6 +16,10 @@ public class ArrayList_Practice {
         l.add(2,"M");
         l.add("n");
         System.out.println(l);
+        for (Object o :l) {
+            System.out.println(o);
+        }
+
 
         System.out.println();
         ArrayList l2 = new ArrayList ();//without generics, it gives the warning because of safety purpose.
