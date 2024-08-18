@@ -14,6 +14,10 @@ public class StaticBlockDemo {
         System.exit(0);
     }
      */
+  //IMPORTANT POINT ABOUT STATIC BLOCK
+  /*
+  ==>Static block call automatically, there is no requirement of any object, new keyword or reference to call it.
+   */
     public static void main(String[] args) {
         System.out.println("I'm in main method");
 
