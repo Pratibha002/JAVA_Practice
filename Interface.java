@@ -71,5 +71,6 @@ public class Interface {//In Java, interfaces allow for multiple inheritance, bu
         cal.sub();
         cal.mul();
         cal.div();
+
     }
 }
