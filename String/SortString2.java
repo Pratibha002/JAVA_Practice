@@ -1,6 +1,8 @@
 //Sort a String in Java
 package JAVA_Practice.String;
 
+import java.util.Arrays;
+
 public class SortString2 {
     public static void main(String[] args) {
         String s ="helloworld";
@@ -15,6 +17,6 @@ public class SortString2 {
 
                 }
             }
-        }System.out.println("Sorted String : "+c);
+        }System.out.println("Sorted String : "+ Arrays.toString(c));
     }
 }
